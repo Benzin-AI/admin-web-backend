@@ -19,7 +19,7 @@ mongoose.connect(mongoURI)
   .catch(err => console.error('Error al conectar a MongoDB Atlas', err));
 
 // Middleware para habilitar CORS
-app.use(cors({ origin: 'https://backendddd.netlify.app' }));
+app.use(cors({ origin: 'https://adminwebfrontend.netlify.app' }));
 
 // Rutas
 const userRoutes = require('./routes/users.routes');
